@@ -5,11 +5,11 @@ export const INITIAL_PORTFOLIO_DATA: PortfolioData = {
   // Providing an extremely stable, high-resolution, professional academic headshot URL directly from Unsplash 
   // as the primary default so it never breaks on any web host. You can easily switch this to "/images/sample-profile.jpg"
   photoUrl: "/images/Ray.jpg",
-  bio: "Driven computer science and applied mathematics student focused on algorithmic optimization, full-stack software development, and artificial intelligence. Dedicated to advancing robust technological platforms, participating in competitive informatics, and driving meaningful initiatives in school clubs and the wider community.",
+  bio: "I am a Grade 11 student with a strong interest in biology and chemistry. I enjoy exploring advanced scientific topics, especially synthetic biology, plant physiology, and enzyme evolution. My academic goal is to study Natural Sciences with a focus on biology, and I hope to use scientific research to better understand living systems and solve real-world environmental problems.",
   gradeLevel: "High School Senior • Class of 2026",
   school: "Thomas Jefferson High School for Science and Technology",
   gpa: "4.00 UW / 4.85 W",
-  major: "Computer Science & Artificial Intelligence",
+  major: "Natural Science",
   heroButtons: {
     resumeText: "Download Resume",
     contactText: "Contact"
