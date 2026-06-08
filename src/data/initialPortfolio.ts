@@ -1,7 +1,7 @@
 import { PortfolioData } from '../types/portfolio';
 
 export const INITIAL_PORTFOLIO_DATA: PortfolioData = {
-  name: "Terry Yao",
+  name: "Rui SUn",
   // Providing an extremely stable, high-resolution, professional academic headshot URL directly from Unsplash 
   // as the primary default so it never breaks on any web host. You can easily switch this to "/images/sample-profile.jpg"
   photoUrl: "/images/Ray.jpg",
