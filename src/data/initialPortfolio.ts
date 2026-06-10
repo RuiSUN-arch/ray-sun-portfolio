@@ -1,14 +1,14 @@
 import { PortfolioData } from '../types/portfolio';
 
 export const INITIAL_PORTFOLIO_DATA: PortfolioData = {
-  name: "Rui SUn",
+  name: "Rui Sun",
   // Providing an extremely stable, high-resolution, professional academic headshot URL directly from Unsplash 
   // as the primary default so it never breaks on any web host. You can easily switch this to "/images/sample-profile.jpg"
   photoUrl: "/images/Ray.jpg",
   bio: "I am a Grade 11 student with a strong interest in biology and chemistry. I enjoy exploring advanced scientific topics, especially synthetic biology, plant physiology, and enzyme evolution. My academic goal is to study Natural Sciences with a focus on biology, and I hope to use scientific research to better understand living systems and solve real-world environmental problems.",
   gradeLevel: "High School Senior • Class of 2026",
-  school: "Thomas Jefferson High School for Science and Technology",
-  gpa: "4.00 UW / 4.85 W",
+  school: "Mapleleaf Shenzhen Academy",
+  gpa: "3.7UW",
   major: "Natural Science",
   heroButtons: {
     resumeText: "Download Resume",
@@ -18,13 +18,13 @@ export const INITIAL_PORTFOLIO_DATA: PortfolioData = {
   gpaDetails: "Consistently maintained a 4.00 Unweighted GPA across the most rigorous STEM-focused curriculum available, including advanced collegiate mathematics and core computational logic.",
   
   courses: [
-    { id: "c1", name: "AP Computer Science A", category: "AP", grade: "5" },
-    { id: "c2", name: "AP Calculus BC", category: "AP", grade: "5" },
-    { id: "c3", name: "AP Physics C: Mechanics", category: "AP", grade: "5" },
+    { id: "c1", name: "AP Computer Science A", category: "AP", grade: "predicted 5" },
+    { id: "c2", name: "AP Calculus BC", category: "AP", grade: "predicted 5" },
+    { id: "c3", name: "AP Chemistry", category: "AP", grade: "5" },
     { id: "c4", name: "AP Statistics", category: "AP", grade: "5" },
-    { id: "c5", name: "Multivariable Calculus & Linear Algebra", category: "Advanced", grade: "A+" },
-    { id: "c6", name: "Data Structures & Algorithms", category: "Honors", grade: "A+" },
-    { id: "c7", name: "Artificial Intelligence Systems", category: "Honors", grade: "A+" }
+    { id: "c5", name: "AP Macroeconomics", category: "AP", grade: "5" },
+    { id: "c6", name: "AP Mircroeconomics", category: "AP", grade: "5" },
+    { id: "c7", name: "AP Statistics", category: "AP", grade: "predicted 5" }
   ],
 
   distinctions: [
@@ -57,16 +57,16 @@ export const INITIAL_PORTFOLIO_DATA: PortfolioData = {
   certifications: [
     {
       id: "cert1",
-      name: "AWS Certified Solutions Architect – Associate",
-      issuer: "Amazon Web Services",
-      year: "2025",
-      link: "https://aws.amazon.com/certification/"
+      name: "Introductory Biology",
+      issuer: "MIT open courseware",
+      year: "2026",
+      link:"https://ocw.mit.edu/courses/7-016-introductory-biology-fall-2018/"
     },
     {
       id: "cert2",
-      name: "Deep Learning Specialization",
-      issuer: "DeepLearning.AI / Coursera",
-      year: "2024",
+      name: "Ecology",
+      issuer: " Coursera",
+      year: "2025",
       link: "https://www.coursera.org/"
     }
   ],
@@ -74,142 +74,53 @@ export const INITIAL_PORTFOLIO_DATA: PortfolioData = {
   researchProjects: [
     {
       id: "res1",
-      title: "OptiGraph: Scalable Heuristics for Large-Scale Network Topologies",
-      role: "Principal Student Researcher",
-      advisor: "Mentored by University CS Faculty",
-      description: "Developed and benchmarked customized C++ graph partitioning algorithms designed to optimize data flow across distributed computing nodes. Reduced latency by 14.2% against standard baseline models. Documentation available in public GitHub repositories."
+      title: "Why Plants Evolved Carbon Concentrating Mechanisms Instead of Perfecting Rubisco",
+      role: "Independent researcher",
+      description: "My research project investigates why Rubisco, despite being essential for photosynthesis, remains inefficient. I explore how kinetic trade-offs and historical constraints may have prevented natural selection from directly improving Rubisco, leading instead to indirect solutions such as C4 photosynthesis and other carbon-concentrating mechanisms."
     },
-    {
-      id: "res2",
-      title: "Automated Computer Vision Models for Real-Time Accessibility Tracking",
-      role: "Lead Developer",
-      advisor: "Independent Engineering Capstone",
-      description: "Engineered a fast object-detection pipeline using optimized PyTorch and OpenCV architectures deployed on Edge edge devices to alert visually impaired individuals to fast-approaching dynamic obstacles."
-    }
+   
   ],
 
   competitions: [
     {
       id: "comp1",
-      name: "USA Computing Olympiad (USACO)",
-      year: "2025",
-      placement: "Platinum Division",
-      description: "Mastered complex state-space searches, interval trees, and highly optimized network flow algorithms under extremely constrained real-time competitive limits.",
-      link: "https://usaco.org"
+      name: "USA Biology Olympiad (USABO)",
+      year: "2026",
+      placement: "National Bronze Metal",
+      description: "Mastered college level biology knowledge, develop exam skills under pressure",
+      
     },
     {
       id: "comp2",
-      name: "American Invitational Mathematics Examination (AIME)",
+      name: "Canadian Chemistry Olympaid (CCO)",
       year: "2025",
-      placement: "Top Tier Performer",
-      description: "Qualified for and achieved high scores on the premier invitational testing sequence for high school quantitative problem solving."
+      placement: "National Bronze Metal",
+      description: "Master college level chemistry knowledge"
     },
-    {
-      id: "comp3",
-      name: "International Collegiate Programming Contest (ICPC) High School Invitational",
-      year: "2024",
-      placement: "1st Place Team",
-      description: "Collaborated in a 3-member unit to swiftly implement error-free solutions for 11 distinct computational logic problems in under 4 hours."
-    }
+    
   ],
 
-  leadership: [
-    {
-      id: "lead1",
-      organization: "Computer Science & Coding Club",
-      role: "President",
-      period: "2024 - 2026",
-      responsibilities: [
-        "Structured the overarching curriculum for 60+ active school club members, directly teaching core fundamentals in C++, Python, and algorithm analysis.",
-        "Organized mock competitive coding tournaments and coordinated peer-to-peer programming tutoring networks."
-      ],
-      accomplishments: [
-        "Coached 18 underclassmen to successfully qualify for the USACO Silver and Gold divisions.",
-        "Secured a club innovation expansion grant directly from local educational foundations."
-      ]
-    },
-    {
-      id: "lead2",
-      organization: "Varsity Mathematics Team",
-      role: "Captain",
-      period: "2023 - 2026",
-      responsibilities: [
-        "Led weekly complex theoretical problem-solving sessions focusing on combinatorics, number theory, and advanced geometry.",
-        "Managed regional transportation logistics and tournament entries for an active 15-member team."
-      ],
-      accomplishments: [
-        "Placed 1st Overall in the Regional State Mathematics League for two consecutive academic years.",
-        "Expanded overall female and underrepresented student participation within the club by 45%."
-      ]
-    }
-  ],
+  
 
-  volunteer: [
-    {
-      id: "vol1",
-      organization: "CodeForYouth Outreach",
-      role: "Lead Instructor & Architect",
-      hours: 180,
-      impact: "Designed and delivered an accessible introductory Scratch and Python web syllabus for elementary and middle school students from disadvantaged districts. Cultivated early enthusiasm for software logic among 90+ local youths."
-    },
-    {
-      id: "vol2",
-      organization: "Tech-Rescue Community Initiative",
-      role: "Open-Source Web Contributor",
-      hours: 120,
-      impact: "Created tailored responsive landing pages and donation portals for small resource-constrained local non-profit organizations, streamlining their digital outreach and directly facilitating regional fund drives."
-    }
-  ],
 
   awards: [
     {
       id: "aw1",
-      title: "National Merit Scholarship Finalist",
+      title: "Mapleleaf scholarship",
       category: "Scholarship",
       date: "Spring 2026",
-      description: "Selected for the ultimate collegiate financial award based on exemplary standardized academic perfection, service depth, and personal essays.",
-      amount: "Full Tuition Eligibility"
+      description: "selected as the half scholarship due to high English proficiency and proficient science skill.",
+      amount: "half scholarship"
     },
-    {
-      id: "aw2",
-      title: "Rensselaer Medal Award",
-      category: "Academic",
-      date: "Spring 2025",
-      description: "Awarded to the single top-performing junior in the high school demonstrating absolute superlative excellence in advanced mathematics and science.",
-      amount: "$160,000 potential"
-    },
-    {
-      id: "aw3",
-      title: "Official ACM Coding Excellence Badge",
-      category: "Badge",
-      date: "2025",
-      description: "Accredited digital recognition token awarded for achieving high tier status in collegiate-level data structure design and speed optimization."
-    }
+   
   ],
 
-  projects: [
-    {
-      id: "proj1",
-      title: "DeepFlow: Distributed Machine Learning Visualizer",
-      category: "Full-Stack Development",
-      description: "An elegant, interactive single-page application built with React, TypeScript, and WebGL that provides live visual node-by-node feedback for deep learning backpropagation passes.",
-      link: "https://github.com/terryyao-edu/deepflow",
-      tags: ["React", "TypeScript", "Tailwind CSS", "WebGL"]
-    },
-    {
-      id: "proj2",
-      title: "Secure-Vault: Local CLI Password & Token Manager",
-      category: "Systems Engineering",
-      description: "A fast, highly secure local command-line client programmed natively in Go and C++ that utilizes strong AES-256 bit encryption and zero-knowledge storage protocols.",
-      link: "https://github.com/terryyao-edu/secure-vault",
-      tags: ["Go", "C++", "Cryptography", "CLI"]
-    }
-  ],
+
 
   languages: [
     { id: "lang1", name: "Mandarin", proficiency: "Native" },
-    { id: "lang2", name: "English", proficiency: "Native / Bilingual" },
-    { id: "lang3", name: "Spanish", proficiency: "Professional Working Proficiency" }
+    { id: "lang2", name: "English", proficiency: " Bilingual" },
+  
   ],
 
   skills: [
@@ -242,30 +153,19 @@ export const INITIAL_PORTFOLIO_DATA: PortfolioData = {
   ],
 
   testScores: [
-    { id: "ts1", testName: "SAT", score: "1590", date: "August 2024", details: "800 Math • 790 Evidence-Based Reading & Writing" },
-    { id: "ts2", testName: "ACT", score: "36", date: "April 2025", details: "36 English • 36 Math • 36 Reading • 36 Science" }
+    { id: "ts1", testName: "SAT", score: "1500", date: "March 2026", details: "790 Math • 710 Evidence-Based Reading & Writing" },
+    
   ],
 
-  careerGoals: "Aiming to pioneer highly optimized, scalable algorithmic frameworks and scalable systems architectures that bridge the gap between heavy theoretical computer science and highly functional real-world artificial intelligence. Ultimately aspiring to lead forward-thinking software engineering initiatives or academic laboratories, producing mission-critical applications that elevate human potential.",
+  careerGoals: "I hope to use scientific research to understand biological systems and develop solutions to real-world environmental and health-related problems.",
 
-  navLinks: [
-    { id: "nav-hero", label: "Home", href: "#hero", visible: true },
-    { id: "nav-acad", label: "Academics", href: "#academics", visible: true },
-    { id: "nav-comp", label: "Competitions", href: "#competitions", visible: true },
-    { id: "nav-lead", label: "Leadership", href: "#leadership", visible: true },
-    { id: "nav-vol", label: "Service", href: "#volunteer", visible: true },
-    { id: "nav-awards", label: "Awards", href: "#awards", visible: true },
-    { id: "nav-high", label: "Highlights", href: "#highlights", visible: true },
-    { id: "nav-contact", label: "Contact", href: "#contact", visible: true }
-  ],
+ 
 
   contact: {
-    email: "terry.yao.2026@gmail.com",
-    phone: "+1 (555) 482-9104",
-    qq: "819203842",
-    github: "https://github.com/terryyao-edu",
-    wechat: "terryyao_cs",
-    linkedin: "https://linkedin.com/in/terry-yao-scholar"
+    email: "1593598@qq.com",
+  
+    qq: "1593598",
+   
   },
 
   theme: {
