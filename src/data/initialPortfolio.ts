@@ -28,424 +28,320 @@ export const INITIAL_PORTFOLIO_DATA: PortfolioData = {
   ],
 
  
-  distinctions: [
+  //  distinctions: [
+  //   {
+  //     id: "d1",
+  //     title: "National Merit Finalist",
+  //     year: "2025",
+  //     description: "Scored in the top 0.5% of test-takers nationwide on the PSAT/NMSQT, demonstrating exceptional quantitative and critical reading readiness."
+  //   },
+  //   {
+  //     id: "d2",
+  //     title: "USA Computing Olympiad (USACO) Platinum Division",
+  //     year: "2025",
+  //     description: "Achieved elite status in competitive informatics through advanced mastery of dynamic programming, graph theory, and highly optimized data structures."
+  //   },
+  //   {
+  //     id: "d3",
+  //     title: "AIME Qualifier",
+  //     year: "2024 - 2025",
+  //     description: "Invited to the American Invitational Mathematics Examination based on outstanding scores in the top 2.5% of the AMC 12."
+  //   }
+  // ],
 
-    {
-
-      id: "d1",
-
-      title: "Academic excellent award in school",
-
-      year: "2026",
-
-      description: "Recognized by the school for strong academic performance, consistent effort, and outstanding achievement across courses.
-"
-
-    },
-
-    {
-id: "d2",
-title: "British Biology Olympiad Gold Award",
-year: "2025",
-description: "Earned a Gold Award in the British Biology Olympiad, demonstrating strong knowledge of biological concepts and advanced problem-solving ability."
-},
-{
-id: "d3",
-title: "UK Chemistry Olympiad Gold Award",
-year: "2025",
-description: "Achieved a Gold Award in the UK Chemistry Olympiad, reflecting strong analytical ability and understanding of advanced chemistry concepts."
-}
-
-  ],
- 
   recognitions: [
-{ id: "r1", title: "21st Century Cup English Speaking Competition Third Prize", date: "2022" },
-
-{ id: "r2", title: "ASDAN Business Simulation Bronze Award", date: "2023" },
-
-{ id: "r3", title: "China Academy of Art Certificate", date: "2023" }
-],
- certifications: [
-{
-id: "cert1",
-name: "IELTS Overall Band 7.5",
-issuer: "British Council / IDP / Cambridge English",
-year: "2024",
-link: ""
-},
-{
-id: "cert2",
-name: "China Academy of Art Certificate",
-issuer: "China Academy of Art",
-year: "2023",
-link: ""
-},
-{
-id: "cert3",
-name: "Drum Set Level 7 Certificate",
-issuer: "Music Grading Examination Organization",
-year: "2023",
-link: ""
-}
-],
- 
-  researchProjects: [
-{
-id: "res1",
-title: "Evolutionary Constraints on Rubisco Optimization",
-role: "Student Researcher",
-advisor: "Independent Research Project",
-description: "Investigated why natural selection has not directly optimized Rubisco despite its low catalytic speed and oxygenase activity. The project explored enzyme kinetics, historical constraints, and the evolution of carbon-concentrating mechanisms such as C4 photosynthesis as indirect solutions to Rubisco inefficiency."
-},
-{
-id: "res2",
-title: "Benefits and Risks of Vaccination",
-role: "Student Researcher",
-advisor: "School Research Project",
-description: "Researched how vaccines train the immune system and evaluated their public health benefits alongside possible side effects. The project emphasized balanced scientific reasoning by comparing vaccine effectiveness, safety concerns, and the importance of evidence-based health decisions."
-}
-],
- 
- competitions: [
-{
-id: "comp1",
-name: "British Biology Olympiad",
-year: "2025",
-placement: "Gold Award",
-description: "Earned a Gold Award by demonstrating strong understanding of biological concepts, data interpretation, and advanced problem-solving in biology."
-},
-{
-id: "comp2",
-name: "UK Chemistry Olympiad",
-year: "2025",
-placement: "Gold Award",
-description: "Achieved a Gold Award through strong performance in analytical chemistry, chemical reasoning, and advanced problem-solving."
-},
-{
-id: "comp3",
-name: "21st Century Cup English Speaking Competition",
-year: "2022",
-placement: "Third Prize",
-description: "Received recognition in an English speaking competition, demonstrating communication ability, confidence, and structured public presentation skills."
-},
-{
-id: "comp4",
-name: "ASDAN Business Simulation",
-year: "2023",
-placement: "Bronze Award",
-description: "Participated in a business simulation challenge that involved teamwork, strategic decision-making, and practical problem-solving."
-}
-],
-
-leadership: [
-{
-id: "lead1",
-organization: "Middle School Basketball Team",
-role: "Team Captain",
-period: "Middle School",
-responsibilities: [
-"Led teammates during practices and competitions, helping maintain teamwork, discipline, and motivation.",
-"Communicated with team members to support cooperation and improve group performance."
-],
-accomplishments: [
-"Developed leadership, responsibility, and resilience through competitive team sports.",
-"Strengthened communication and collaboration skills in a team-based environment."
-]
-},
-{
-id: "lead2",
-organization: "Biology Research and Academic Projects",
-role: "Student Researcher",
-period: "2025 - 2026",
-responsibilities: [
-"Independently selected research topics related to biology, chemistry, and environmental biochemistry.",
-"Read scientific papers, organized notes, and developed research arguments based on evidence."
-],
-accomplishments: [
-"Completed research on Rubisco evolution and the constraints behind enzyme optimization.",
-"Improved scientific writing, citation management, and research presentation skills."
-]
-}
-],
-
-volunteer: [
-{
-id: "vol1",
-organization: "Autism Volunteer Service",
-role: "Student Volunteer",
-hours: null,
-impact: "Supported volunteer activities related to autism awareness and community service, developing patience, empathy, and a stronger sense of social responsibility."
-},
-{
-id: "vol2",
-organization: "Donation and Community Support Activities",
-role: "Student Participant",
-hours: null,
-impact: "Participated in donation-related service activities, contributing to community support while developing a stronger awareness of public responsibility."
-}
-],
-
-awards: [
-{
-id: "aw1",
-title: "Academic Excellence Award",
-category: "Academic",
-date: "2025",
-description: "Recognized by the school for strong academic performance, consistent effort, and outstanding achievement across coursework."
-},
-{
-id: "aw2",
-title: "China Academy of Art Certificate",
-category: "Arts",
-date: "2023",
-description: "Received an art certificate from the China Academy of Art, reflecting long-term training and achievement in visual arts."
-},
-{
-id: "aw3",
-title: "Drum Set Level 7 Certificate",
-category: "Music",
-date: "2023",
-description: "Earned a Level 7 certificate in drum set performance, demonstrating commitment, practice, and musical skill."
-}
-],
-
-projects: [
-{
-id: "proj1",
-title: "Evolutionary Constraints on Rubisco Optimization",
-category: "Biology Research",
-description: "A research project examining why natural selection has not directly optimized Rubisco despite its slow catalytic rate and oxygenase activity. The project explores enzyme kinetics, historical constraints, and indirect evolutionary solutions such as C4 photosynthesis and carbon-concentrating mechanisms.",
-link: "",
-tags: ["Rubisco", "Evolution", "Enzyme Kinetics", "C4 Photosynthesis"]
-},
-{
-id: "proj2",
-title: "Benefits and Risks of Vaccination",
-category: "Biology Research",
-description: "A school research project analyzing how vaccines train the immune system while also considering possible side effects and public health concerns. The project emphasizes balanced scientific reasoning and evidence-based health decisions.",
-link: "",
-tags: ["Immunology", "Vaccination", "Public Health", "Scientific Writing"]
-}
-],
-
-languages: [
-{ id: "lang1", name: "Mandarin", proficiency: "Native" },
-{ id: "lang2", name: "English", proficiency: "Advanced / IELTS 7.5" }
-],
-
-skills: [
-{ id: "sk1", name: "Biology Research and Scientific Reading", category: "Academic" },
-{ id: "sk2", name: "Organic Chemistry Foundations", category: "Academic" },
-{ id: "sk3", name: "Environmental Biochemistry", category: "Academic Interest" },
-{ id: "sk4", name: "Synthetic Biology", category: "Academic Interest" },
-{ id: "sk5", name: "LaTeX and Overleaf", category: "Academic Writing" },
-{ id: "sk6", name: "Scientific Citation and Literature Review", category: "Research" },
-{ id: "sk7", name: "Public Speaking", category: "Communication" },
-{ id: "sk8", name: "Visual Design and Poster Creation", category: "Creative" }
-],
-
-creativeWork: [
-{
-id: "cw1",
-title: "Simplistic Scientific Poster Design",
-type: "Visual Communication",
-description: "Designed visually clear, minimalist posters for academic and presentation projects, focusing on clean structure, readable layout, and effective communication of key ideas.",
-link: ""
-}
-],
-
-publications: [],
-
-testScores: [
-{
-id: "ts1",
-testName: "IELTS",
-score: "7.5 Overall",
-date: "2024",
-details: "Reading 9.0 • Listening 8.5 • Writing 6.5 • Speaking 6.0"
-}
-],
-
-careerGoals: "My career goal is to study biology and chemistry at a deeper level, especially environmental biochemistry and synthetic biology. In the future, I hope to use scientific research to understand biological systems and develop solutions to real-world environmental and health-related problems."
-
-    { id: "nav-hero", label: "Home", href: "#hero", visible: true },
-
-    { id: "nav-acad", label: "Academics", href: "#academics", visible: true },
-
-    { id: "nav-comp", label: "Competitions", href: "#competitions", visible: true },
-
-    { id: "nav-lead", label: "Leadership", href: "#leadership", visible: true },
-
-    { id: "nav-vol", label: "Service", href: "#volunteer", visible: true },
-
-    { id: "nav-awards", label: "Awards", href: "#awards", visible: true },
-
-    { id: "nav-high", label: "Highlights", href: "#highlights", visible: true },
-
-    { id: "nav-contact", label: "Contact", href: "#contact", visible: true }
-
+    { id: "r1", title: "Principal's List (All Semesters)", date: "2023 - 2026" },
+    { id: "r2", title: "AP Scholar with Distinction", date: "July 2025" },
+    { id: "r3", title: "National Honor Society High Honor Recognition", date: "Spring 2025" }
   ],
- 
+
+  certifications: [
+    {
+      id: "cert1",
+      name: "Introductory Biology",
+      issuer: "MIT open courseware",
+      year: "2025",
+      link: "https://ocw.mit.edu/courses/7-016-introductory-biology-fall-2018/"
+    },
+    // {
+    //   id: "cert2",
+    //   name: "Deep Learning Specialization",
+    //   issuer: "DeepLearning.AI / Coursera",
+    //   year: "2024",
+    //   link: "https://www.coursera.org/"
+    // }
+  ],
+
+  researchProjects: [
+    {
+      id: "res1",
+      title: "Why Plants Evolved Carbon Concentrating Mechanisms Instead of Perfecting Rubisco",
+      role: "Independent researcher",
+      advisor: "none",
+      description: "My research project investigates why Rubisco, despite being essential for photosynthesis, remains inefficient. I explore how kinetic trade-offs and historical constraints may have prevented natural selection from directly improving Rubisco, leading instead to indirect solutions such as C4 photosynthesis and other carbon-concentrating mechanisms."
+    },
+    // {
+    //   id: "res2",
+    //   title: "Automated Computer Vision Models for Real-Time Accessibility Tracking",
+    //   role: "Lead Developer",
+    //   advisor: "Independent Engineering Capstone",
+    //   description: "Engineered a fast object-detection pipeline using optimized PyTorch and OpenCV architectures deployed on Edge edge devices to alert visually impaired individuals to fast-approaching dynamic obstacles."
+    // }
+  ],
+
+  competitions: [
+    {
+      id: "comp1",
+      name: "Canadian Chemistry Olympaid (CCO)",
+      year: "2025",
+      placement: "National bronze award",
+      description: "Mastered college level chemistry",
+      link: "https://cco-occ.ca/"
+    },
+    {
+      id: "comp2",
+      name: "USA Biology Olympaid (USABO)",
+      year: "2026",
+      placement: "National bronze award",
+      description: "master college level biology"
+    },
+    // {
+    //   id: "comp3",
+    //   name: "International Collegiate Programming Contest (ICPC) High School Invitational",
+    //   year: "2024",
+    //   placement: "1st Place Team",
+    //   description: "Collaborated in a 3-member unit to swiftly implement error-free solutions for 11 distinct computational logic problems in under 4 hours."
+    // }
+  ],
+
+  // leadership: [
+  //   {
+  //     id: "lead1",
+  //     organization: "Computer Science & Coding Club",
+  //     role: "President",
+  //     period: "2024 - 2026",
+  //     responsibilities: [
+  //       "Structured the overarching curriculum for 60+ active school club members, directly teaching core fundamentals in C++, Python, and algorithm analysis.",
+  //       "Organized mock competitive coding tournaments and coordinated peer-to-peer programming tutoring networks."
+  //     ],
+  //     accomplishments: [
+  //       "Coached 18 underclassmen to successfully qualify for the USACO Silver and Gold divisions.",
+  //       "Secured a club innovation expansion grant directly from local educational foundations."
+  //     ]
+  //   },
+  //   {
+  //     id: "lead2",
+  //     organization: "Varsity Mathematics Team",
+  //     role: "Captain",
+  //     period: "2023 - 2026",
+  //     responsibilities: [
+  //       "Led weekly complex theoretical problem-solving sessions focusing on combinatorics, number theory, and advanced geometry.",
+  //       "Managed regional transportation logistics and tournament entries for an active 15-member team."
+  //     ],
+  //     accomplishments: [
+  //       "Placed 1st Overall in the Regional State Mathematics League for two consecutive academic years.",
+  //       "Expanded overall female and underrepresented student participation within the club by 45%."
+  //     ]
+  //   }
+  // ],
+
+  // volunteer: [
+  //   {
+  //     id: "vol1",
+  //     organization: "CodeForYouth Outreach",
+  //     role: "Lead Instructor & Architect",
+  //     hours: 180,
+  //     impact: "Designed and delivered an accessible introductory Scratch and Python web syllabus for elementary and middle school students from disadvantaged districts. Cultivated early enthusiasm for software logic among 90+ local youths."
+  //   },
+  //   {
+  //     id: "vol2",
+  //     organization: "Tech-Rescue Community Initiative",
+  //     role: "Open-Source Web Contributor",
+  //     hours: 120,
+  //     impact: "Created tailored responsive landing pages and donation portals for small resource-constrained local non-profit organizations, streamlining their digital outreach and directly facilitating regional fund drives."
+  //   }
+  // ],
+
+  // awards: [
+  //   {
+  //     id: "aw1",
+  //     title: "National Merit Scholarship Finalist",
+  //     category: "Scholarship",
+  //     date: "Spring 2026",
+  //     description: "Selected for the ultimate collegiate financial award based on exemplary standardized academic perfection, service depth, and personal essays.",
+  //     amount: "Full Tuition Eligibility"
+  //   },
+  //   {
+  //     id: "aw2",
+  //     title: "Rensselaer Medal Award",
+  //     category: "Academic",
+  //     date: "Spring 2025",
+  //     description: "Awarded to the single top-performing junior in the high school demonstrating absolute superlative excellence in advanced mathematics and science.",
+  //     amount: "$160,000 potential"
+  //   },
+  //   {
+  //     id: "aw3",
+  //     title: "Official ACM Coding Excellence Badge",
+  //     category: "Badge",
+  //     date: "2025",
+  //     description: "Accredited digital recognition token awarded for achieving high tier status in collegiate-level data structure design and speed optimization."
+  //   }
+  // ],
+
+  // projects: [
+  //   {
+  //     id: "proj1",
+  //     title: "DeepFlow: Distributed Machine Learning Visualizer",
+  //     category: "Full-Stack Development",
+  //     description: "An elegant, interactive single-page application built with React, TypeScript, and WebGL that provides live visual node-by-node feedback for deep learning backpropagation passes.",
+  //     link: "https://github.com/terryyao-edu/deepflow",
+  //     tags: ["React", "TypeScript", "Tailwind CSS", "WebGL"]
+  //   },
+  //   {
+  //     id: "proj2",
+  //     title: "Secure-Vault: Local CLI Password & Token Manager",
+  //     category: "Systems Engineering",
+  //     description: "A fast, highly secure local command-line client programmed natively in Go and C++ that utilizes strong AES-256 bit encryption and zero-knowledge storage protocols.",
+  //     link: "https://github.com/terryyao-edu/secure-vault",
+  //     tags: ["Go", "C++", "Cryptography", "CLI"]
+  //   }
+  // ],
+
+  languages: [
+    { id: "lang1", name: "Mandarin", proficiency: "Native" },
+    { id: "lang2", name: "English", proficiency: "Bilingual" },
+    { id: "lang3", name: "Spanish", proficiency: "Beginner" }
+  ],
+
+  // skills: [
+  //   { id: "sk1", name: "C++ & Advanced Algorithms", category: "Core Technical" },
+  //   { id: "sk2", name: "Python / PyTorch", category: "Core Technical" },
+  //   { id: "sk3", name: "React & TypeScript", category: "Core Technical" },
+  //   { id: "sk4", name: "Go & Systems Programming", category: "Core Technical" },
+  //   { id: "sk5", name: "Git, Docker & AWS", category: "Infrastructure" },
+  //   { id: "sk6", name: "LaTeX & Mathematical Typesetting", category: "Academic" }
+  // ],
+
+  // creativeWork: [
+  //   {
+  //     id: "cw1",
+  //     title: "Algorithmic Symphonies - Generative Audio",
+  //     type: "Creative Audio Coding",
+  //     description: "An experimental procedural soundscape generator built with custom Python audio scripts that map prime integer sequences to complex harmonic waveforms.",
+  //     link: "https://github.com/terryyao-edu"
+  //   }
+  // ],
+
+  // publications: [
+  //   {
+  //     id: "pub1",
+  //     title: "Optimizing State-Space Explorations in Highly Constrained Search Trees",
+  //     journal: "High School Journal of Computational Mathematics",
+  //     date: "Fall 2025",
+  //     link: "https://example.com/publication"
+  //   }
+  // ],
+
+  testScores: [
+    { id: "ts1", testName: "SAT", score: "1500", date: "March 2026", details: "790 Math • 710 Evidence-Based Reading & Writing" },
+    // { id: "ts2", testName: "ACT", score: "36", date: "April 2025", details: "36 English • 36 Math • 36 Reading • 36 Science" }
+  ],
+
+  careerGoals: "Aiming to pioneer highly optimized, scalable algorithmic frameworks and scalable systems architectures that bridge the gap between heavy theoretical computer science and highly functional real-world artificial intelligence. Ultimately aspiring to lead forward-thinking software engineering initiatives or academic laboratories, producing mission-critical applications that elevate human potential.",
+
+  navLinks: [
+    { id: "nav-hero", label: "Home", href: "#hero", visible: true },
+    { id: "nav-acad", label: "Academics", href: "#academics", visible: true },
+    { id: "nav-comp", label: "Competitions", href: "#competitions", visible: true },
+    { id: "nav-lead", label: "Leadership", href: "#leadership", visible: true },
+    { id: "nav-vol", label: "Service", href: "#volunteer", visible: true },
+    { id: "nav-awards", label: "Awards", href: "#awards", visible: true },
+    { id: "nav-high", label: "Highlights", href: "#highlights", visible: true },
+    { id: "nav-contact", label: "Contact", href: "#contact", visible: true }
+  ],
+
   contact: {
-
     email: "1593598@qq.com",
-
     phone: "+1 (555) 482-9104",
-
     qq: "1593598",
-
-    github: "https://github.com/session",
-
-    wechat: 12321321421",
-
-    linkedin: "https://ray-sun-portfolio.netlify.app/"
-
+    github: "https://github.com/terryyao-edu",
+    wechat: "13243242143",
+    linkedin: "hub.com/session"
   },
- 
+
   theme: {
-
     preset: "ivy-crimson",
-
     bgColor: "#ffffff",
-
     bgSecondary: "#f8fafc",
-
     textColor: "#0f172a",
-
     textSecondary: "#475569",
-
     accentColor: "#881337",
-
     accentLight: "#ffe4e6",
-
     fontFamily: "'Inter', sans-serif"
-
   }
-
 };
- 
+
 export const THEME_PRESETS = [
-
   {
-
     id: "ivy-crimson",
-
     name: "Classic Ivy Crimson",
-
     bgColor: "#ffffff",
-
     bgSecondary: "#f8fafc",
-
     textColor: "#0f172a",
-
     textSecondary: "#475569",
-
     accentColor: "#881337",
-
     accentLight: "#ffe4e6",
-
   },
-
   {
-
     id: "stanford-cardinal",
-
     name: "Stanford Cardinal",
-
     bgColor: "#ffffff",
-
     bgSecondary: "#fefefe",
-
     textColor: "#1c1917",
-
     textSecondary: "#57534e",
-
     accentColor: "#8c1515",
-
     accentLight: "#fee2e2",
-
   },
-
   {
-
     id: "berkeley-blue",
-
     name: "Berkeley Blue & Gold",
-
     bgColor: "#ffffff",
-
     bgSecondary: "#f1f5f9",
-
     textColor: "#0f172a",
-
     textSecondary: "#334155",
-
     accentColor: "#003262",
-
     accentLight: "#e0f2fe",
-
   },
-
   {
-
     id: "mit-silver",
-
     name: "MIT Tech Slate",
-
     bgColor: "#0b0f19",
-
     bgSecondary: "#111827",
-
     textColor: "#f3f4f6",
-
     textSecondary: "#9ca3af",
-
     accentColor: "#3b82f6",
-
     accentLight: "#1e3a8a",
-
   },
-
   {
-
     id: "oxford-emerald",
-
     name: "Oxford Prestige Emerald",
-
     bgColor: "#ffffff",
-
     bgSecondary: "#f4fbf7",
-
     textColor: "#064e3b",
-
     textSecondary: "#047857",
-
     accentColor: "#065f46",
-
     accentLight: "#d1fae5",
-
   },
-
   {
-
     id: "elegant-minimalist",
-
     name: "Pure Minimalist Slate",
-
     bgColor: "#fafafa",
-
     bgSecondary: "#ffffff",
-
     textColor: "#18181b",
-
     textSecondary: "#52525b",
-
     accentColor: "#27272a",
-
     accentLight: "#f4f4f5",
-
   }
-
 ];
 
  
