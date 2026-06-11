@@ -125,7 +125,6 @@ export const INITIAL_PORTFOLIO_DATA: PortfolioData = {
          "Supported activities designed to help autistic children engage in communication, play, and social interaction.",
       "Worked with other volunteers to create a patient and encouraging environment."
     ], 
-        ],
       accomplishments:
         [
         "Improved empathy, communication, and understanding of individual differences.",
