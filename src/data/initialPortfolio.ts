@@ -28,26 +28,26 @@ export const INITIAL_PORTFOLIO_DATA: PortfolioData = {
   ],
 
  
-  //  distinctions: [
-  //   {
-  //     id: "d1",
-  //     title: "National Merit Finalist",
-  //     year: "2025",
-  //     description: "Scored in the top 0.5% of test-takers nationwide on the PSAT/NMSQT, demonstrating exceptional quantitative and critical reading readiness."
-  //   },
-  //   {
-  //     id: "d2",
-  //     title: "USA Computing Olympiad (USACO) Platinum Division",
-  //     year: "2025",
-  //     description: "Achieved elite status in competitive informatics through advanced mastery of dynamic programming, graph theory, and highly optimized data structures."
-  //   },
-  //   {
-  //     id: "d3",
-  //     title: "AIME Qualifier",
-  //     year: "2024 - 2025",
-  //     description: "Invited to the American Invitational Mathematics Examination based on outstanding scores in the top 2.5% of the AMC 12."
-  //   }
-  // ],
+   distinctions: [
+    {
+      id: "d1",
+      title: "National Merit Finalist",
+      year: "2025",
+      description: "Scored in the top 0.5% of test-takers nationwide on the PSAT/NMSQT, demonstrating exceptional quantitative and critical reading readiness."
+    },
+    {
+      id: "d2",
+      title: "USA Computing Olympiad (USACO) Platinum Division",
+      year: "2025",
+      description: "Achieved elite status in competitive informatics through advanced mastery of dynamic programming, graph theory, and highly optimized data structures."
+    },
+    {
+      id: "d3",
+      title: "AIME Qualifier",
+      year: "2024 - 2025",
+      description: "Invited to the American Invitational Mathematics Examination based on outstanding scores in the top 2.5% of the AMC 12."
+    }
+  ],
 
   recognitions: [
     { id: "r1", title: "Principal's List (All Semesters)", date: "2023 - 2026" },
@@ -63,13 +63,13 @@ export const INITIAL_PORTFOLIO_DATA: PortfolioData = {
       year: "2025",
       link: "https://ocw.mit.edu/courses/7-016-introductory-biology-fall-2018/"
     },
-    // {
-    //   id: "cert2",
-    //   name: "Deep Learning Specialization",
-    //   issuer: "DeepLearning.AI / Coursera",
-    //   year: "2024",
-    //   link: "https://www.coursera.org/"
-    // }
+    {
+      id: "cert2",
+      name: "Deep Learning Specialization",
+      issuer: "DeepLearning.AI / Coursera",
+      year: "2024",
+      link: "https://www.coursera.org/"
+    }
   ],
 
   researchProjects: [
@@ -80,13 +80,13 @@ export const INITIAL_PORTFOLIO_DATA: PortfolioData = {
       advisor: "none",
       description: "My research project investigates why Rubisco, despite being essential for photosynthesis, remains inefficient. I explore how kinetic trade-offs and historical constraints may have prevented natural selection from directly improving Rubisco, leading instead to indirect solutions such as C4 photosynthesis and other carbon-concentrating mechanisms."
     },
-    // {
-    //   id: "res2",
-    //   title: "Automated Computer Vision Models for Real-Time Accessibility Tracking",
-    //   role: "Lead Developer",
-    //   advisor: "Independent Engineering Capstone",
-    //   description: "Engineered a fast object-detection pipeline using optimized PyTorch and OpenCV architectures deployed on Edge edge devices to alert visually impaired individuals to fast-approaching dynamic obstacles."
-    // }
+    {
+      id: "res2",
+      title: "Automated Computer Vision Models for Real-Time Accessibility Tracking",
+      role: "Lead Developer",
+      advisor: "Independent Engineering Capstone",
+      description: "Engineered a fast object-detection pipeline using optimized PyTorch and OpenCV architectures deployed on Edge edge devices to alert visually impaired individuals to fast-approaching dynamic obstacles."
+    }
   ],
 
   competitions: [
@@ -105,107 +105,107 @@ export const INITIAL_PORTFOLIO_DATA: PortfolioData = {
       placement: "National bronze award",
       description: "master college level biology"
     },
-    // {
-    //   id: "comp3",
-    //   name: "International Collegiate Programming Contest (ICPC) High School Invitational",
-    //   year: "2024",
-    //   placement: "1st Place Team",
-    //   description: "Collaborated in a 3-member unit to swiftly implement error-free solutions for 11 distinct computational logic problems in under 4 hours."
-    // }
+    {
+      id: "comp3",
+      name: "International Collegiate Programming Contest (ICPC) High School Invitational",
+      year: "2024",
+      placement: "1st Place Team",
+      description: "Collaborated in a 3-member unit to swiftly implement error-free solutions for 11 distinct computational logic problems in under 4 hours."
+    }
   ],
 
-  // leadership: [
-  //   {
-  //     id: "lead1",
-  //     organization: "Computer Science & Coding Club",
-  //     role: "President",
-  //     period: "2024 - 2026",
-  //     responsibilities: [
-  //       "Structured the overarching curriculum for 60+ active school club members, directly teaching core fundamentals in C++, Python, and algorithm analysis.",
-  //       "Organized mock competitive coding tournaments and coordinated peer-to-peer programming tutoring networks."
-  //     ],
-  //     accomplishments: [
-  //       "Coached 18 underclassmen to successfully qualify for the USACO Silver and Gold divisions.",
-  //       "Secured a club innovation expansion grant directly from local educational foundations."
-  //     ]
-  //   },
-  //   {
-  //     id: "lead2",
-  //     organization: "Varsity Mathematics Team",
-  //     role: "Captain",
-  //     period: "2023 - 2026",
-  //     responsibilities: [
-  //       "Led weekly complex theoretical problem-solving sessions focusing on combinatorics, number theory, and advanced geometry.",
-  //       "Managed regional transportation logistics and tournament entries for an active 15-member team."
-  //     ],
-  //     accomplishments: [
-  //       "Placed 1st Overall in the Regional State Mathematics League for two consecutive academic years.",
-  //       "Expanded overall female and underrepresented student participation within the club by 45%."
-  //     ]
-  //   }
-  // ],
+  leadership: [
+    {
+      id: "lead1",
+      organization: "Computer Science & Coding Club",
+      role: "President",
+      period: "2024 - 2026",
+      responsibilities: [
+        "Structured the overarching curriculum for 60+ active school club members, directly teaching core fundamentals in C++, Python, and algorithm analysis.",
+        "Organized mock competitive coding tournaments and coordinated peer-to-peer programming tutoring networks."
+      ],
+      accomplishments: [
+        "Coached 18 underclassmen to successfully qualify for the USACO Silver and Gold divisions.",
+        "Secured a club innovation expansion grant directly from local educational foundations."
+      ]
+    },
+    {
+      id: "lead2",
+      organization: "Varsity Mathematics Team",
+      role: "Captain",
+      period: "2023 - 2026",
+      responsibilities: [
+        "Led weekly complex theoretical problem-solving sessions focusing on combinatorics, number theory, and advanced geometry.",
+        "Managed regional transportation logistics and tournament entries for an active 15-member team."
+      ],
+      accomplishments: [
+        "Placed 1st Overall in the Regional State Mathematics League for two consecutive academic years.",
+        "Expanded overall female and underrepresented student participation within the club by 45%."
+      ]
+    }
+  ],
 
-  // volunteer: [
-  //   {
-  //     id: "vol1",
-  //     organization: "CodeForYouth Outreach",
-  //     role: "Lead Instructor & Architect",
-  //     hours: 180,
-  //     impact: "Designed and delivered an accessible introductory Scratch and Python web syllabus for elementary and middle school students from disadvantaged districts. Cultivated early enthusiasm for software logic among 90+ local youths."
-  //   },
-  //   {
-  //     id: "vol2",
-  //     organization: "Tech-Rescue Community Initiative",
-  //     role: "Open-Source Web Contributor",
-  //     hours: 120,
-  //     impact: "Created tailored responsive landing pages and donation portals for small resource-constrained local non-profit organizations, streamlining their digital outreach and directly facilitating regional fund drives."
-  //   }
-  // ],
+  volunteer: [
+    {
+      id: "vol1",
+      organization: "CodeForYouth Outreach",
+      role: "Lead Instructor & Architect",
+      hours: 180,
+      impact: "Designed and delivered an accessible introductory Scratch and Python web syllabus for elementary and middle school students from disadvantaged districts. Cultivated early enthusiasm for software logic among 90+ local youths."
+    },
+    {
+      id: "vol2",
+      organization: "Tech-Rescue Community Initiative",
+      role: "Open-Source Web Contributor",
+      hours: 120,
+      impact: "Created tailored responsive landing pages and donation portals for small resource-constrained local non-profit organizations, streamlining their digital outreach and directly facilitating regional fund drives."
+    }
+  ],
 
-  // awards: [
-  //   {
-  //     id: "aw1",
-  //     title: "National Merit Scholarship Finalist",
-  //     category: "Scholarship",
-  //     date: "Spring 2026",
-  //     description: "Selected for the ultimate collegiate financial award based on exemplary standardized academic perfection, service depth, and personal essays.",
-  //     amount: "Full Tuition Eligibility"
-  //   },
-  //   {
-  //     id: "aw2",
-  //     title: "Rensselaer Medal Award",
-  //     category: "Academic",
-  //     date: "Spring 2025",
-  //     description: "Awarded to the single top-performing junior in the high school demonstrating absolute superlative excellence in advanced mathematics and science.",
-  //     amount: "$160,000 potential"
-  //   },
-  //   {
-  //     id: "aw3",
-  //     title: "Official ACM Coding Excellence Badge",
-  //     category: "Badge",
-  //     date: "2025",
-  //     description: "Accredited digital recognition token awarded for achieving high tier status in collegiate-level data structure design and speed optimization."
-  //   }
-  // ],
+  awards: [
+    {
+      id: "aw1",
+      title: "National Merit Scholarship Finalist",
+      category: "Scholarship",
+      date: "Spring 2026",
+      description: "Selected for the ultimate collegiate financial award based on exemplary standardized academic perfection, service depth, and personal essays.",
+      amount: "Full Tuition Eligibility"
+    },
+    {
+      id: "aw2",
+      title: "Rensselaer Medal Award",
+      category: "Academic",
+      date: "Spring 2025",
+      description: "Awarded to the single top-performing junior in the high school demonstrating absolute superlative excellence in advanced mathematics and science.",
+      amount: "$160,000 potential"
+    },
+    {
+      id: "aw3",
+      title: "Official ACM Coding Excellence Badge",
+      category: "Badge",
+      date: "2025",
+      description: "Accredited digital recognition token awarded for achieving high tier status in collegiate-level data structure design and speed optimization."
+    }
+  ],
 
-  // projects: [
-  //   {
-  //     id: "proj1",
-  //     title: "DeepFlow: Distributed Machine Learning Visualizer",
-  //     category: "Full-Stack Development",
-  //     description: "An elegant, interactive single-page application built with React, TypeScript, and WebGL that provides live visual node-by-node feedback for deep learning backpropagation passes.",
-  //     link: "https://github.com/terryyao-edu/deepflow",
-  //     tags: ["React", "TypeScript", "Tailwind CSS", "WebGL"]
-  //   },
-  //   {
-  //     id: "proj2",
-  //     title: "Secure-Vault: Local CLI Password & Token Manager",
-  //     category: "Systems Engineering",
-  //     description: "A fast, highly secure local command-line client programmed natively in Go and C++ that utilizes strong AES-256 bit encryption and zero-knowledge storage protocols.",
-  //     link: "https://github.com/terryyao-edu/secure-vault",
-  //     tags: ["Go", "C++", "Cryptography", "CLI"]
-  //   }
-  // ],
+  projects: [
+    {
+      id: "proj1",
+      title: "DeepFlow: Distributed Machine Learning Visualizer",
+      category: "Full-Stack Development",
+      description: "An elegant, interactive single-page application built with React, TypeScript, and WebGL that provides live visual node-by-node feedback for deep learning backpropagation passes.",
+      link: "https://github.com/terryyao-edu/deepflow",
+      tags: ["React", "TypeScript", "Tailwind CSS", "WebGL"]
+    },
+    {
+      id: "proj2",
+      title: "Secure-Vault: Local CLI Password & Token Manager",
+      category: "Systems Engineering",
+      description: "A fast, highly secure local command-line client programmed natively in Go and C++ that utilizes strong AES-256 bit encryption and zero-knowledge storage protocols.",
+      link: "https://github.com/terryyao-edu/secure-vault",
+      tags: ["Go", "C++", "Cryptography", "CLI"]
+    }
+  ],
 
   languages: [
     { id: "lang1", name: "Mandarin", proficiency: "Native" },
@@ -213,38 +213,38 @@ export const INITIAL_PORTFOLIO_DATA: PortfolioData = {
     { id: "lang3", name: "Spanish", proficiency: "Beginner" }
   ],
 
-  // skills: [
-  //   { id: "sk1", name: "C++ & Advanced Algorithms", category: "Core Technical" },
-  //   { id: "sk2", name: "Python / PyTorch", category: "Core Technical" },
-  //   { id: "sk3", name: "React & TypeScript", category: "Core Technical" },
-  //   { id: "sk4", name: "Go & Systems Programming", category: "Core Technical" },
-  //   { id: "sk5", name: "Git, Docker & AWS", category: "Infrastructure" },
-  //   { id: "sk6", name: "LaTeX & Mathematical Typesetting", category: "Academic" }
-  // ],
+  skills: [
+    { id: "sk1", name: "C++ & Advanced Algorithms", category: "Core Technical" },
+    { id: "sk2", name: "Python / PyTorch", category: "Core Technical" },
+    { id: "sk3", name: "React & TypeScript", category: "Core Technical" },
+    { id: "sk4", name: "Go & Systems Programming", category: "Core Technical" },
+    { id: "sk5", name: "Git, Docker & AWS", category: "Infrastructure" },
+    { id: "sk6", name: "LaTeX & Mathematical Typesetting", category: "Academic" }
+  ],
 
-  // creativeWork: [
-  //   {
-  //     id: "cw1",
-  //     title: "Algorithmic Symphonies - Generative Audio",
-  //     type: "Creative Audio Coding",
-  //     description: "An experimental procedural soundscape generator built with custom Python audio scripts that map prime integer sequences to complex harmonic waveforms.",
-  //     link: "https://github.com/terryyao-edu"
-  //   }
-  // ],
+  creativeWork: [
+    {
+      id: "cw1",
+      title: "Algorithmic Symphonies - Generative Audio",
+      type: "Creative Audio Coding",
+      description: "An experimental procedural soundscape generator built with custom Python audio scripts that map prime integer sequences to complex harmonic waveforms.",
+      link: "https://github.com/terryyao-edu"
+    }
+  ],
 
-  // publications: [
-  //   {
-  //     id: "pub1",
-  //     title: "Optimizing State-Space Explorations in Highly Constrained Search Trees",
-  //     journal: "High School Journal of Computational Mathematics",
-  //     date: "Fall 2025",
-  //     link: "https://example.com/publication"
-  //   }
-  // ],
+  publications: [
+    {
+      id: "pub1",
+      title: "Optimizing State-Space Explorations in Highly Constrained Search Trees",
+      journal: "High School Journal of Computational Mathematics",
+      date: "Fall 2025",
+      link: "https://example.com/publication"
+    }
+  ],
 
   testScores: [
     { id: "ts1", testName: "SAT", score: "1500", date: "March 2026", details: "790 Math • 710 Evidence-Based Reading & Writing" },
-    // { id: "ts2", testName: "ACT", score: "36", date: "April 2025", details: "36 English • 36 Math • 36 Reading • 36 Science" }
+    { id: "ts2", testName: "ACT", score: "36", date: "April 2025", details: "36 English • 36 Math • 36 Reading • 36 Science" }
   ],
 
   careerGoals: "Aiming to pioneer highly optimized, scalable algorithmic frameworks and scalable systems architectures that bridge the gap between heavy theoretical computer science and highly functional real-world artificial intelligence. Ultimately aspiring to lead forward-thinking software engineering initiatives or academic laboratories, producing mission-critical applications that elevate human potential.",
